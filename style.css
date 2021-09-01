@@ -156,3 +156,15 @@ figure {
 .sitefooter a:hover {
   color: yellow;
 }
+@media screen and (max-width: 800px) {
+  body {
+    width: 690px;
+    height: 375px;
+  }
+  img {
+    width: 660px;
+  }
+  .site-description {
+    text-align: center;
+  }
+}
